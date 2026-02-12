@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="valentine-container">
+        <!-- Decorative heart background -->
+        <div class="heart-background"></div>
+        
+        <!-- Page 1: Question -->
+        <div class="page" id="page1">
+            <!-- Large decorative heart outside box -->
+            <div class="heart-icon-large-outside">
+                <img src="assets/heart.png" alt="" aria-hidden="true">
+            </div>
+            
+            <div class="question-section">
+                <h1 class="question-title">Will you be my Valentine?</h1>
+                
+                <p class="question-subtitle">I promise unlimited smiles, bad jokes, and forever pink vibes.</p>
+                
+                <div class="button-container">
+                    <button class="btn btn-yes" id="yesBtn">Yes</button>
+                    <button class="btn btn-no" id="noBtn">NO</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Page 2: Congratulations -->
+        <div class="page hidden" id="page2">
+            <div class="congrats-section">
+                <div class="heart-icon-large">
+                    <!-- <img src="assets/heart.png" alt="" aria-hidden="true"> -->
+                </div>
+                
+                
+                
+                <p class="footer-message">Looking forward to hearing from you! 💌</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
